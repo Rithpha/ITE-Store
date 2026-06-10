@@ -1,10 +1,10 @@
-#ITE Store
+# ITE Store
 
 ITE Store is a Flutter mobile application developed as a final exam project. The application displays products from a remote API, allows users to search products, manage a shopping cart, and perform checkout operations.ITE Store is a Flutter mobile application developed as a final exam project. The application displays products from a remote API, allows users to search products, manage a shopping cart, and perform checkout operations.
 
-#Features
+# Features
 
-##Home Screen
+## Home Screen
 
 - Fetch products from API
 - Display products in a grid layout
@@ -12,7 +12,7 @@ ITE Store is a Flutter mobile application developed as a final exam project. The
 - Add products to cart
 - Display cart item count
 
-##Cart Screen
+## Cart Screen
 
 - View cart items
 - Increase or decrease quantity
@@ -21,7 +21,7 @@ ITE Store is a Flutter mobile application developed as a final exam project. The
 - Checkout functionality
 - Success dialog after checkout
 
-#Environment 
+# Environment 
 
 Environment                 App Name                    Features
 Dev                      ITE Store Dev               Full Features
@@ -29,7 +29,7 @@ UAT                      ITE Store Test              Full Features
 Demo                     ITE Store Demo              View Products Only
 Production               ITE Store                   Full Features
 
-#API Base URLs
+# API Base URLs
 
 Dev
 https://smlp-pub.s3.ap-southeast-1.amazonaws.com/ite-store/dev/
@@ -43,7 +43,7 @@ https://smlp-pub.s3.ap-southeast-1.amazonaws.com/ite-store/demo/
 Production
 https://smlp-pub.s3.ap-southeast-1.amazonaws.com/ite-store/prod/
 
-#Project Structure
+# Project Structure
 
 lib/
 ├── app/
@@ -54,7 +54,7 @@ lib/
 ├── widgets/
 └── main.dart
 
-#Technologies Used
+# Technologies Used
 
 - Flutter
 - Dart
@@ -62,9 +62,9 @@ lib/
 - ChangeNotifier
 - Material Design
 
-#Run Application
+# Run Application
 
-##Development
+## Development
 
 - Product list API:
 products.json
@@ -77,6 +77,7 @@ flutter run --flavor demo --dart-define=ENV=demo
 
 flutter run --flavor prod --dart-define=ENV=prod
 
+# Result
 
 <img width="342" height="802" alt="image" src="https://github.com/user-attachments/assets/22318dfc-08a6-44ac-9a40-92dee68da0ff" />
 
