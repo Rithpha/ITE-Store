@@ -62,20 +62,25 @@ lib/
 - ChangeNotifier
 - Material Design
 
-# Run Application
+## Quick Start
 
-## Development
+git clone https://github.com/Rithpha/ITE-Store.git
 
-- Product list API:
-products.json
+cd ITE-Store
 
+flutter pub get
+
+for dev
 flutter run --flavor dev --dart-define=ENV=dev
 
-flutter run --flavor uat --dart-define=ENV=uat
+for production
+flutter run --flavor prod --dart-define=ENV=prod
 
+for demo
 flutter run --flavor demo --dart-define=ENV=demo
 
-flutter run --flavor prod --dart-define=ENV=prod
+for UAT
+flutter run --flavor uat --dart-define=ENV=uat
 
 # Result
 
