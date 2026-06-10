@@ -66,6 +66,9 @@ lib/
 
 ##Development
 
+- Product list API:
+products.json
+
 flutter run --flavor dev --dart-define=ENV=dev
 
 flutter run --flavor uat --dart-define=ENV=uat
@@ -74,6 +77,14 @@ flutter run --flavor demo --dart-define=ENV=demo
 
 flutter run --flavor prod --dart-define=ENV=prod
 
+
+<img width="342" height="802" alt="image" src="https://github.com/user-attachments/assets/22318dfc-08a6-44ac-9a40-92dee68da0ff" />
+
+<img width="345" height="797" alt="image" src="https://github.com/user-attachments/assets/9ad5b16f-8774-4edb-9892-8487e570c248" />
+
+<img width="345" height="797" alt="image" src="https://github.com/user-attachments/assets/957c3130-cc70-4d44-a75d-93dfe0282d03" />
+
+<img width="342" height="800" alt="image" src="https://github.com/user-attachments/assets/4f724bc2-2af8-4be1-89d2-f3a65b0653a1" />
 
 
 
